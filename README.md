@@ -28,7 +28,7 @@ A responsive and visually polished stopwatch application built using **HTML**, *
 ## Live Demo
 
 Check out the live version deployed via Vercel:  
-🔗 [https://your-vercel-url.vercel.app](https://your-vercel-url.vercel.app)
+🔗 https://sct-wd-2-six.vercel.app
 
 ---
 
@@ -36,5 +36,5 @@ Check out the live version deployed via Vercel:
 
 1. Clone the repo:
    ```bash
-   git clone https://github.com/YOUR_USERNAME/stopwatch.git
+   git clone https://github.com/Gangadhara2829/SCT_WD_2
    cd stopwatch
