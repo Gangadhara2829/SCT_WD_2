@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Stopwatch</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <h1>Stopwatch</h1>
+    <div id="display">00:00:00</div>
+
+    <div class="buttons">
+      <button onclick="startStop()">Start/Stop</button>
+      <button onclick="reset()">Reset</button>
+      <button onclick="lap()">Lap</button>
+      <button onclick="toggleTheme()">Toggle Mode</button>
+      <button onclick="exportCSV()">Download CSV</button>
+    </div>
+
+    <ul id="laps"></ul>
+  </div>
+
+  <audio id="beep" src="https://www.soundjay.com/buttons/sounds/beep-07.mp3"></audio>
+  <script src="script.js"></script>
+</body>
+</html>

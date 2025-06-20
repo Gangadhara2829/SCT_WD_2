@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Bebas Neue', sans-serif;
+}
+
+body {
+  background: linear-gradient(145deg, #1a1a2e, #16213e, #0f3460);
+  color: #ffffff;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  text-align: center;
+  padding: 30px;
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(10px);
+  border-radius: 16px;
+  box-shadow: 0 0 25px rgb(247, 247, 247);
+  width: 90%;
+  max-width: 400px;
+}
+
+h1 {
+  font-size: 2.5rem;
+  color: #f0134d;
+  text-shadow: 0 0 10px #f0134d;
+  margin-bottom: 20px;
+}
+
+#display {
+  font-size: 3rem;
+  padding: 10px;
+  border-radius: 8px;
+  background-color: #fff;
+  color: #111;
+  margin-bottom: 20px;
+}
+
+.buttons button {
+  margin: 5px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  background-color: #f0134d;
+  color: white;
+  box-shadow: 0 0 10px #f0134d;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.buttons button:hover {
+  transform: scale(1.1);
+  background-color: #ff2e63;
+}
+
+#laps {
+  margin-top: 15px;
+  text-align: left;
+  max-height: 150px;
+  overflow-y: auto;
+}
